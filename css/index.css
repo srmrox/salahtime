@@ -1,0 +1,227 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    background-color:#E4E4E4;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+    }
+}
+
+h1 {
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+div {
+	position: fixed;
+	left: 0%;
+	height: 2pt;
+    width: 100%;
+	background-color: #D9D9D9;
+}
+
+#title {
+	height: auto;
+	background-color: #E4E4E4;
+}
+
+#fajar {
+	position: fixed;
+	top: 10%;
+    left: 10%;
+	height: 10%;
+    width: 20%;
+    text-align: center;
+	background-color: #cccccc;
+}
+
+#zuhur {
+	position: fixed;
+	top: 10%;
+    left: 20%;
+	height: 10%;
+    width: 20%;
+    text-align: center;
+	background-color: #cccccc;
+}
+
+#asr {
+	position: fixed;
+	top: 10%;
+    left: 40%;
+	height: 10%;
+    width: 20%;
+    text-align: center;
+	background-color: #cccccc;
+}
+
+#maghrib {
+	position: fixed;
+	top: 10%;
+    left: 60%;
+	height: 10%;
+    width: 20%;
+    text-align: center;
+	background-color: #cccccc;
+}
+
+#ishaNight {
+	position: fixed;
+	top: 10%;
+    left: 80%;
+	height: 10%;
+    width: 20%;
+    text-align: center;
+	background-color: #cccccc;
+}
+
+#ishaDay {
+	position: fixed;
+	top: 0%;
+    left: 80%;
+	height: 10%;
+    width: 20%;
+    text-align: center;
+	background-color: #cccccc;
+}
+
+#now {
+	position: fixed;
+	top: 10%;
+	left: 0%;
+	height: 2pt;
+    width: 100%;
+    text-align: center;
+	background-color: #ff0000;
+}
+
+#midDay {
+	top: 0%;
+}
+#am1 {
+	top: 4.17%;
+}
+#am2 {
+	top: 8.33%;
+}
+#am3 {
+	top: 12.5%;
+	background-color: #cccccc;
+}
+#am4 {
+	top: 16.67%;
+}
+#am5 {
+	top: 20.83%;
+}
+#am6 {
+	top: 25%;
+	background-color: #cccccc;
+}
+#am7 {
+	top: 29.17%;
+}
+#am8 {
+	top: 33.33%;
+}
+#am9 {
+	top: 37.5%;
+	background-color: #cccccc;
+}
+#am10 {
+	top: 41.67%;
+}
+#am11 {
+	top: 45.83%;
+}
+#noon {
+	top: 50%;
+	background-color: #cccccc;
+}
+#pm1 {
+	top: 54.16%;
+}
+#pm2 {
+	top: 58.33%;
+}
+#pm3 {
+	top: 62.5%;
+	background-color: #cccccc;
+}
+#pm4 {
+	top: 66.67%;
+}
+#pm5 {
+	top: 70.83%;
+}
+#pm6 {
+	top: 75%;
+	background-color: #cccccc;
+}
+#pm7 {
+	top: 79.17%;
+}
+#pm8 {
+	top: 83.33%;
+}
+#pm9 {
+	top: 87.5%;
+	background-color: #cccccc;
+}
+#pm10 {
+	top: 91.67%;
+}
+#pm11 {
+	top: 95.83%;
+}
+#midNight {
+	top: 100%;
+	background-color: #cccccc;
+}
+		
+#sunrise {
+	top: 0%;
+	background-color: #FF980C;
+}
+#sunset {
+	top: 0%;
+	background-color: #D50DFF;
+}
